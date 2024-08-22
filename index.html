@@ -31,12 +31,12 @@
                 <li>Contact Us</li>
               </ul>
             </div>
-            <div class="navbar-end hidden sm:flex">
-                <div class="bg-slate-300 rounded-full p-1" >
+            <div class="navbar-end hidden sm:flex gap-3">
+                <div class="bg-slate-300 rounded-full p-2" >
                     <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
                 </div>
-                <div class="bg-white rounded-full p-1" >
-                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="M784-120 532-372q-30 24-69 38t-83 14q-109 0-184.5-75.5T120-580q0-109 75.5-184.5T380-840q109 0 184.5 75.5T640-580q0 44-14 83t-38 69l252 252-56 56ZM380-400q75 0 127.5-52.5T560-580q0-75-52.5-127.5T380-760q-75 0-127.5 52.5T200-580q0 75 52.5 127.5T380-400Z"/></svg>
+                <div class="bg-slate-300 rounded-full p-2" >
+                    <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#5f6368"><path d="m634-440-81-80h69l110-200H353l-80-80h525q23 0 35.5 19.5t.5 42.5L692-482q-11 20-28 31t-30 11ZM280-80q-33 0-56.5-23.5T200-160q0-33 23.5-56.5T280-240q33 0 56.5 23.5T360-160q0 33-23.5 56.5T280-80Zm540 52L566-280H304q-44 0-67-37.5t-3-78.5l42-86-72-162L28-820l56-56L876-84l-56 56ZM486-360l-80-80h-62l-40 80h182Zm136-160h-69 69Zm58 440q-33 0-56.5-23.5T600-160q0-33 23.5-56.5T680-240q33 0 56.5 23.5T760-160q0 33-23.5 56.5T680-80Z"/></svg>
                 </div>
 
               <button class="btn btn-success rounded-3xl">Book Consoult
@@ -63,8 +63,8 @@
           <div class="flex justify-center">
             <img src="assets/banner.png" alt="">
           </div><b></b>
-            <h1 class="text-center text-5xl font-bold">A barn house of this design has a <br> striking appearance</h1><br>
-            <p class="text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal <br>accents, and large windows that flood the space with natural light.</p><br>
+            <h1 class="text-center text-6xl font-bold px-8">A barn house of this design has a striking appearance</h1><br>
+            <p class="text-center md:px-16">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents, and large windows that flood the space with natural light.</p><br>
             <div class="text-center">
                     <a href="#">
                         <button class="btn btn-success rounded-3xl">View Details
@@ -77,10 +77,36 @@
     </header>
 
     <main>
+        <br>
+        <section class="bg-[url('assets/bg.jpg')] bg-cover bg-center w-full py-20 md:px-24 text-center">
+            <div class="px-10 py-4">
+                <div class="flex justify-center">
+                    <div class="flex items-center justify-center gap-2 bg-green-300 rounded w-28">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#5f6368"><path d="m696-312-51-51 81-81H144v-72h582l-81-81 51-51 168 168-168 168Z"/></svg>
+                        <h4 class="text-xs">Let’s Connect</h4>
+                    </div>
+                </div><br>
+                <h2 class=" text-4xl font-bold">Let’s Discuss Next Project</h2><br>
+                <p class="text-2xl">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.</p>
+            </div>
 
+            <div class="grid gap-5 grid-cols-1 mx-4 md:grid-cols-2">
+                <input class="p-5 rounded-3xl w-full" type="text" placeholder="First Name*">
+                <input class="p-5 rounded-3xl" type="text" placeholder="Last Name*">
+                <input class="p-5 rounded-3xl" type="number" placeholder="Phone number*">
+                <input class="p-5 rounded-3xl" type="email" placeholder="Email Addresss*">
+                <textarea class="resize-none row-span-10 md:col-span-2 rounded-2xl p-5" name="texts" id="" placeholder="Write your message here"></textarea>
+                <div class="btn bg-green-300 rounded-3xl md:col-span-2">
+                    <input class="text-xl font-bold"  type="submit" value="Send Mail">
+                <div class="bg-black rounded-full p-1" >
+                    <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#5f6368"><path d="m243-192-51-51 429-429H384v-72h360v360h-72v-237L243-192Z"/></svg>
+                </div>
+                </div>
+            </div>
+        </section>
     </main>
 
-    <footer class="bg-black py-24">
+    <footer class="bg-black py-10 px-8 md:py-24 md:px-60">
         <div class="flex items-center justify-center gap-1 text-3xl">
             <div class="bg-green-400 rounded-full p-1" >
                 <svg xmlns="http://www.w3.org/2000/svg" height="16px" viewBox="0 -960 960 960" width="16px" fill="#5f6368"><path d="m243-192-51-51 429-429H384v-72h360v360h-72v-237L243-192Z"/></svg>
@@ -88,7 +114,7 @@
             <h5 class="text-white">
                 Rinterio</h5>
           </div><br>
-          <p class="text-neutral-500 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, <br>featuring weathered wood, sleek metal accents.</p>
+          <p class="text-neutral-500 text-center">The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents </p>
           <br>
           <ul class="text-center  md:flex justify-center items-center my-8 gap-10 text-neutral-500">
             <li>Home</li><br>
